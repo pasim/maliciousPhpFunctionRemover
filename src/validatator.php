@@ -49,6 +49,7 @@ class validatator {
      */
     public function setPattern($item){
         array_push(&$this->patterns, $item);
+        return $this;
     }
     
     /*
